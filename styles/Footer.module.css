@@ -1,0 +1,30 @@
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;    
+    padding: 30px 50px;
+    background: #130b1a;
+    color: white;
+}
+
+.container:first-child p {
+    width: 400px;
+}
+.container:first-child  ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.container :last-child  ul{
+    display: block;
+}
+.container :last-child li{
+    margin-top: 10px;
+}
+.footerContainer :last-child p {
+    text-align: center;
+    padding: 0;
+}

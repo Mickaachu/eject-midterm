@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react';
-import style from "../styles/Navbar.module.css"
+
 const Navbar = () => {
     const [windowHeight, setWindowHeight] = useState("");
     const [backgroundTransparacy, setBackgroundTransparacy] = useState(0);
@@ -28,7 +28,8 @@ const Navbar = () => {
                 padding: '10px 50px',
                 display: 'flex',
                 justifyContent: 'space-between',
-                alignItems: 'center'
+                alignItems: 'center',
+                zIndex:'1000'
 
             }
         }>
