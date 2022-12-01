@@ -1,0 +1,95 @@
+
+.containerHero {
+    height: 80vh;
+    padding: 70px;
+    margin: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 20px;
+   
+}
+.containerHero h1 {
+    width: 699px;
+    z-index: 2;
+}
+.containerHero h4 {
+    color: #5F0D65;
+    z-index: 2;
+}
+
+.containerHero .overlay {
+    background-color: #fff;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.3;
+    z-index: 1;
+}
+.containerHero :last-child {
+    z-index: 2;
+}
+.overlay {
+    background-color: #fff;
+    height: 408px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    opacity: 0.5;
+    z-index: 1;
+}
+.containerabout {
+    height: 408px;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.containerabout h1 {
+    z-index: 2;
+}
+.containercareers {
+    height: 408px;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.containercareers h1 {
+    z-index: 2;
+}
+.containerservices {
+    height: 408px;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.containerservices h1 {
+    z-index: 2;
+}
+.containercontact {
+    height: 408px;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-image: url('../public/contactBG.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.containercontact h1 {
+    z-index: 2;
+}
