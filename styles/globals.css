@@ -27,6 +27,9 @@ p {
 h2 {
   font-size: 49px;
 }
+h3 {
+  font-size: 30px;
+}
 h4 {
   font-size: 22px;
 }
@@ -38,4 +41,10 @@ h4 {
     color: black;
     background: white;
   }
+}
+button {
+  border: none;
+  background-color: #5f0d65;
+  max-width: 700px;
+  padding: 5px;
 }

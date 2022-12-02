@@ -8,6 +8,7 @@
     border: none;
     transition-duration: 0.5s;
     cursor: pointer;
+    z-index: 2;
 }
 .primary:hover, .primary:focus {
     background-color: #420947;
@@ -21,6 +22,6 @@
     transition-duration: 0.5s;
     cursor: pointer;
 }
-.secondary:hover, .secondary:focus {
+.secondary:hover{
     color: #420947;
 }
