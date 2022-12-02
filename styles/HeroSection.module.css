@@ -7,6 +7,11 @@
    flex-direction: column;
    justify-content: center;
    gap: 20px;
+   background-image: url('../public/pexels-sevenstorm-juhaszimrus-443383.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
    
 }
 .containerHero h1 {
@@ -25,7 +30,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    opacity: 0.3;
+    opacity: 0.4;
     z-index: 1;
 }
 .containerHero :last-child {
@@ -49,6 +54,10 @@
     justify-content: center;
     align-items: center;
     z-index: 2;
+    background-image: url('../public/pexels-fauxels-3184424.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .containerabout h1 {
     z-index: 2;
