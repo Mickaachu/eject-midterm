@@ -1,0 +1,69 @@
+.WhoWeAreContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 619px;
+  background-color: #EDEDED;
+}
+
+.missionVision {
+  background-color: #5F0D65;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  
+}
+.mission, .vision {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  gap:10px;
+}
+.mission h3, .vision h3 {
+  text-align: center;
+}
+.WhoWeAreContainer div p {
+  width: 510px;
+}
+
+.missionVisionIMG {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 50%;
+}
+.WhoWeAreContainer div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 2;
+ 
+}
+
+.OurTeamContainer {
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  width: 100%;
+  padding: 81px 0px;
+}
+
+.OurTeamContainer p {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.members {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+}
+

@@ -38,9 +38,9 @@ const Careers = () => {
               <div>
                 <h2>JOIN OUR TEAM</h2>
                 <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem 
+                  Join our team to gain experience and explore the digital space
                 <br/>
-                aperiam, eaque ipsa quae ab illo  ratione voluptavelit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                  We gladly hire and help you with your career. In Ejec you can develop your skills and gain more knowledge.
                 </p>
                 <Button variant='primary'> See Job Openings</Button>
               </div>

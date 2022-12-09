@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 50px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.card1, .card2, .card3, .card4 {
+    width: 300px;
+    height: 250px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(224, 224, 224);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.card1 {
+    background-image: url('../public/Rectangle\ 31.png');
+    
+}
+.card2 {
+    background-image: url('../public/Rectangle\ 31-1.png');
+}
+.card3 {
+    background-image: url('../public/Rectangle\ 31-2.png');
+}
+.card4 {
+    background-image: url('../public/Rectangle\ 31-3.png');
+}
+.overlay {
+    background-color: rgb(0, 0, 0,0.5);
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    transition-duration: 0.5s;
+}
+.card1 h4, .card2 h4, .card3 h4, .card4 h4 {
+    z-index: 3;
+}
+.overlay:hover {
+    background-color: rgb(0, 0, 0,0.8);
+}

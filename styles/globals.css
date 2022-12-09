@@ -20,7 +20,7 @@ a {
 h1 {
   font-size: 61px;
 }
-p {
+p, input, textarea {
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;;
 }

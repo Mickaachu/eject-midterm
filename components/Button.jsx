@@ -8,7 +8,7 @@ const Button = ({children, variant}) => {
           </div>
         ) : (
           <div>
-            <button className={styles.secondary}>{children}</button>
+            <button type='button' className={styles.secondary}>{children}</button>
           </div>
         )}
       </div>
