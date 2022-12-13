@@ -16,7 +16,7 @@ const about = () => {
             <div>
               <h3>Mission</h3>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem 
+                Changing the world through digital experience. 
               </p>
             </div>
           </div>
@@ -28,7 +28,7 @@ const about = () => {
             <div>
               <h3>Vision</h3>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem 
+                Great experiences have the power to inspire, transform, and move the world forward. And every great experience starts with creativity
               </p>
             </div>
           </div>
