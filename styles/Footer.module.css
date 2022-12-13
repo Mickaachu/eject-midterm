@@ -28,3 +28,12 @@
     text-align: center;
     padding: 0;
 }
+@media screen and (max-width: 750px) {
+    .container {
+       flex-direction: column;
+       gap: 200px;
+    }
+    .container:first-child p {
+        width: 100%;
+    }
+}

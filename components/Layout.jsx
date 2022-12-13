@@ -1,4 +1,5 @@
 import { ToastContainer } from "react-toastify";
+
 import Navbar from "./Navbar";
 import PageFooter from "./PageFooter";
 const Layout = ({children}) => {
@@ -6,6 +7,7 @@ const Layout = ({children}) => {
         <>
             <ToastContainer/>
             <Navbar/>
+           
             <main style={{
                 minHeight: '52vh'
             }}>

@@ -13,7 +13,7 @@ const about = () => {
             <div className={styles.missionVisionIMG}>
               <Image src="/mission.png" width="96" height="96" />
             </div>
-            <div>
+            <div className={styles.missioncontent}>
               <h3>Mission</h3>
               <p>
                 Changing the world through digital experience. 

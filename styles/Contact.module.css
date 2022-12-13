@@ -70,3 +70,14 @@
   .ContactInfo button {
     width: 700px;
   }
+  @media screen and (max-width: 745px) { 
+    .ContactInfo p {
+      width: 100%;
+    }
+    .Textboxes ,.MessageBox {
+      width: 100%;
+    }
+    .ContactInfo button {
+      width: 200px;
+    }
+  }

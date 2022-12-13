@@ -36,3 +36,18 @@
   text-align: start;
   margin-top: 20px;
 }
+@media screen and (max-width: 745px) {
+  .cards {
+    flex-direction: column;
+    
+  }
+  .card {
+    width: 90vw;
+  }
+  .whoWeAre  {
+    flex-direction: column;
+  }
+  .whoWeAre p {
+    width: 100%;
+  }
+}

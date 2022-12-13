@@ -1,4 +1,9 @@
 
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .ContactInfo {
     margin-bottom: 32px;
     padding: 20px;
@@ -30,4 +35,15 @@
   }
   .ContactInfo Button {
     width: 200px;
+  }
+  @media screen and (max-width: 745px) {
+    .container {
+        flex-direction: column;
+    }
+    .Gmap {
+      width: 100%;
+    }
+    .ContactInfo p {
+      width: 100%;
+    }
   }

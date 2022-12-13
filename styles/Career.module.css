@@ -58,7 +58,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    width: 100%;
 }
 .jobs input{
     width: 700px;
@@ -68,9 +68,39 @@
     padding: 5px;
     height: 40px;
     margin-top: 10px;
-    border-color: #000;
+    border: #000 1px solid;
 }
 .jobs form button {
     height: 40px;
     width: 100px;
+}
+@media screen and (max-width: 745px) {
+    .joinTeamContainer {
+        flex-direction:column ;
+        
+    }
+    .jobs li {
+        flex-direction: column;
+    }
+    .jobs li p {
+        width: 100%;
+    }
+    .joinTeamContainer button ,.vector{
+        display: none;
+    }
+    .joinTeamContainer div p {
+        width: 100%;
+    }
+    .joinTeamContainer div {
+        padding: 40px 15px;
+    }
+    .jobs {
+        padding: 20px;
+    }
+    .jobs input{
+        width: 90%;
+        
+        
+    }
+    
 }

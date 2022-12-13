@@ -12,8 +12,7 @@
     background-position: center;
     background-size: cover;
     
- 
-   
+    
 }
 .containerHero h1 {
     width: 699px;
@@ -108,4 +107,18 @@
 }
 .containercontact h1 {
     z-index: 2;
+}
+
+@media screen and (max-width: 750px) {
+    .containerHero {
+        width: 100%;
+        
+    }
+    .containerHero h1 {
+        width: 100%;
+    }
+    .containerHero button{ 
+        display: none;
+    }
+
 }

@@ -12,23 +12,29 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
+  padding: 50px 250px;
+  justify-content: space-between;
   
 }
 .mission, .vision {
   display: flex;
-  justify-content: center;
   align-items: center;
   height: 180px;
-  gap:10px;
-}
-.mission h3, .vision h3 {
+  gap:50px;
+  justify-content: space-between;
   text-align: center;
 }
+.missioncontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .WhoWeAreContainer div p {
   width: 510px;
+  
 }
 
 .missionVisionIMG {
@@ -66,4 +72,23 @@
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 745px) {
+  .mission, .vision {
+    flex-direction: column;
+    height: 100%;
 
+  }
+  .missionVision {
+    gap: 40px;
+    padding: 30px 40px;
+  }
+  .WhoWeAreContainer {
+    flex-direction: column;
+  }
+  .WhoWeAreContainer div p {
+    width: 100%;
+  }
+  .members {
+    flex-direction: column;
+  }
+}

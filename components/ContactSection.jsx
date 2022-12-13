@@ -17,13 +17,7 @@ const ContactSection = () => {
         
     }
     return (
-        <div style={
-            {
-                display: "flex",
-                justifyContent: 'center',
-                alignItems: 'center'
-            }
-        }>
+        <div className={styles.container}>
              <iframe className={styles.Gmap} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61854.923469667105!2d120.93162992438013!3d14.315340935979354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d5c84cfd23a7%3A0x2fe4aaac204eee50!2sDasmarinas%20City%2C%20Cavite!5e0!3m2!1sen!2sph!4v1669753280276!5m2!1sen!2sph"></iframe>
              <div className={styles.ContactInfo}>
                 <h2>Contact Us</h2>
