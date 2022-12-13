@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Button from "../components/Button"
-import HeroSection from "../components/herosection"
+import HeroSection from "../components/HeroSection"
 import styles from "../styles/Contact.module.css"
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
