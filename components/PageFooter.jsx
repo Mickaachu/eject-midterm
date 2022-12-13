@@ -7,7 +7,7 @@ const PageFooter = () => {
                     <img src="footerLogo.png"/>
                 
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. aperiam, eaque ipsa quae ab illo  ratione voluptavelit, sed quia non numquam eius modi tempora incidunt ut.
+                        EJEC IS A FREELANCING GROUP THAT CONSIST WITH FIVE(5) RESPECTFULLY MEMBERS THAT HAS DESIGNATED SPECIALTY AREAS.
                     </p>
                     <ul>
                         <li>
