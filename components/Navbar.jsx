@@ -88,7 +88,7 @@ const Navbar = () => {
                         }
                     }>
                     <Link href="/">
-                        <img src="logo.png" alt="EJEC"/>
+                        <img src="Logo.png" alt="EJEC"/>
                         
                     </Link>
                     <div 
