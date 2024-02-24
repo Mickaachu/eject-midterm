@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { useEffect, useState } from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import styling from '../styles/BurgerMenu.module.css';
@@ -88,7 +89,7 @@ const Navbar = () => {
                         }
                     }>
                     <Link href="/">
-                        <img src="Logo.png" alt="EJEC"/>
+                       <Image src="/Logo.png" alt="EJEC"/>
                         
                     </Link>
                     <div 
